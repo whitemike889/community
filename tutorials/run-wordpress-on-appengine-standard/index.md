@@ -191,7 +191,7 @@ as follows (be sure to keep the Cloud SQL proxy running):
     # Install the wp-cli utility
     $ composer require wp-cli/wp-cli-bundle
     # Now you can run the "wp" command to update Wordpress itself
-    $ vendor/bin/wp core update --path=wordpress
+    $ vendor/bin/wp core update --path=my-wordpress-project
     # You can also update all the plugins and themes
     $ vendor/bin/wp plugin update --all
     $ vendor/bin/wp theme update --all
